@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="309DD80A-4E06-100D-9F59-3CF1B1A3C1E2" containerWithKeyObject="CE1588DA-E665-8DD2-D9C9-A5C03E63E015" localFKIndex="68B3D689-93F7-5022-F110-E4E50F6C5055" name="Registro_Recorrido_Bus_Bus_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>F83FB802-2D36-B4BB-4A96-9B0213744F71</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<referredTableLongName>Bus</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB5EFE85-24FC-29F5-1359-F53B9BAED7DD</referredTableID>
+<keyObject>47591A62-359E-F379-087A-6FCD40DD2565</keyObject>
+<referredKeyID>47591A62-359E-F379-087A-6FCD40DD2565</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Patente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

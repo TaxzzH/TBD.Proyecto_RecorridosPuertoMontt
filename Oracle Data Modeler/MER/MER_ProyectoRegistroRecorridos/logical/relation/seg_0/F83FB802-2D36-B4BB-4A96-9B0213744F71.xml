@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Bus_RegistroRecorrido" directorySegmentName="seg_0" id="F83FB802-2D36-B4BB-4A96-9B0213744F71">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:25:10 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<sourcePk>5F757734-712F-CF1F-DABD-58B6A7747D4D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>329D21B3-E6EF-89AF-3D14-49F73DECCD22</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECCCE9A9-CC34-EC89-21D2-E473FA8B841E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7518573-B089-25FC-2074-8CDBAEDA58E2" containerWithKeyObject="CE1588DA-E665-8DD2-D9C9-A5C03E63E015" localFKIndex="73AAE190-D47C-44C4-36E4-2B70E747DD6D" name="Registro_Recorrido_Bus_Horarios_FKv2">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>26207846-9306-DF2D-59A8-A4890B9E9032</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<referredTableLongName>Horarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C94A505-D312-FBC9-C1E7-9800935DDCC7</referredTableID>
+<keyObject>F44F7E33-02D0-ABFF-D818-3E4820F1A844</keyObject>
+<referredKeyID>F44F7E33-02D0-ABFF-D818-3E4820F1A844</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA815C81-EF74-56EE-B727-021098CF69F3" name="Terminal">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:06:02 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="CA4F3DE7-F666-61C8-35EE-D012FD9570A8">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:06:06 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Terminal" id="A5ED42A0-6184-6ED3-49F5-AA2E21EDCFD9">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:06:07 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cant_Carriles" id="97967B59-01A9-625C-38A8-798AFD6694D5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:08:36 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C3ABC8FA-0E5F-F977-0E39-62DEFD4C4054">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:21:00 UTC</createdTime>
+<generatorID>150FC317-6975-B7C2-F9F2-B8B964EAB934</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>920A0952-EE61-C534-8A14-FA4FD8233EF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DB8BFDE-40A8-9505-5457-3C0F90EE2007" name="Terminal PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:06:17 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA4F3DE7-F666-61C8-35EE-D012FD9570A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

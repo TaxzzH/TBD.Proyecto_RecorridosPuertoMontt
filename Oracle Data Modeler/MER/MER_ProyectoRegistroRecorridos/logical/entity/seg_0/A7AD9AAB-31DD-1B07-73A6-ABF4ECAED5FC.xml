@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7AD9AAB-31DD-1B07-73A6-ABF4ECAED5FC" name="Datos Conductor">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:02:55 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUT" id="2B7CD5B2-0FE6-6ECA-93F3-113BEA6435F0">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:03:04 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres" id="11590E5E-2360-F03A-BD5A-7ABB066ACF8D">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:03:16 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_Paterno" id="67A3713C-6549-A397-6F27-433F2786D52E">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:03:54 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_Materno" id="E3FBB78E-72AB-FC80-2ACC-BF3025761956">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:04:26 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="A727E993-26B9-E2A9-7F66-AA86AD09EE67">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:04:35 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono Emergencia" id="5DB3E2A1-32EE-F04C-4DBC-F9E621E53B1D">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:05:11 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="4EDE2DB2-5EEB-32B5-429A-0F854D0E5DB1">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:05:33 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="4844378E-5514-FCBD-E79B-4207804FE7D8">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:17:32 UTC</createdTime>
+<generatorID>F9882556-9AC2-869D-EFF3-F3D4D8AB2A91</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>A733A87D-1D67-0483-D0D5-6DCBFCB507F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDD313CE-334A-5FC4-0CC6-E2BD7A9B7FD2" name="Datos Conductor PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:03:15 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B7CD5B2-0FE6-6ECA-93F3-113BEA6435F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

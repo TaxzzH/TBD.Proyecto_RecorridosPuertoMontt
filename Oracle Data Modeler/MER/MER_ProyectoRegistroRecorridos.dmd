@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_ProyectoRegistroRecorridos" id="6BA39FE2-8715-8FE3-7271-123B1E71D3A3" version="3.5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 02:56:13 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6BA39FE2-8715-8FE3-7271-123B1E71D3A3</designId>
+</OSDM_Design>

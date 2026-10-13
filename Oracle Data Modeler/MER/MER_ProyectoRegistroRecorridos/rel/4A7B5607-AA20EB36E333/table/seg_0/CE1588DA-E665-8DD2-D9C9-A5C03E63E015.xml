@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE1588DA-E665-8DD2-D9C9-A5C03E63E015" name="Registro_Recorrido_Bus">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>ECCCE9A9-CC34-EC89-21D2-E473FA8B841E</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A5DD5B1D-BFC5-96EC-0F2D-978F7CE8FE5B">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>FBD37C7F-6EBA-40C9-513C-07C1732EBB98</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_Ejecucion_Entrada" id="4AA3AB6D-AF98-934E-FB7F-0457BB32645F">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>D337179E-32D8-F2F4-508D-9ED41476382D</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_Ejecucion_Salida" id="8E03DC16-4987-5978-B321-145C579EDF08">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>A5C66220-9A3E-85F8-414C-75DF3F177578</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Recorrido" id="85A30D63-97FE-DE92-0B53-2BFC723670DC">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>53B52C1A-5100-DEDB-A479-D63BCC1F4D7A</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datos_Conductor_RUT" id="D9057CEB-0AE4-BCD2-0F17-3C017FC328A5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>EB39978A-1EBF-501E-EAAA-2D69BC62398D</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E150BA1-249E-11FE-CA53-D1975F7B9753" referredColumn="DB3EE5EC-A7E8-B7E5-7C77-9B4FFAC0CE2D"/>
+</associations>
+</Column>
+<Column name="Carril_Terminal_ID" id="BA7F4416-4BCE-EAB8-B5C1-82BD83345C1C">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>A92A42CC-AF09-77FA-DF11-B1C2221B7822</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC4F6D48-D2E2-2D35-F482-54D453ED8632" referredColumn="BE0FF15A-C198-F3E0-3971-2BBF8F23DA96"/>
+</associations>
+</Column>
+<Column name="Carril_Terminal_ID2" id="0AF81C0A-F73A-5804-1E14-A7A9849F0FC1">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>CA19B36B-68A2-7DAB-1804-66B785E60904</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57B6421A-5834-A09E-5ECF-5F8B38EAE0B1" referredColumn="BE0FF15A-C198-F3E0-3971-2BBF8F23DA96"/>
+</associations>
+</Column>
+<Column name="Recorridos_ID" id="E8E5FDBB-D388-3CB8-A5D7-88AAFB99ACCF">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>8A597306-C270-BB92-8301-893728CEFC46</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA4D010F-8983-3CA7-D6E9-8FB5233D40CC" referredColumn="CCD0D425-6240-2905-7A5A-BD4C2133C99A"/>
+</associations>
+</Column>
+<Column name="Horarios_ID" id="CDAA273C-9DB6-A2DA-D4CF-062D8DBC26D1">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>C2150D67-3DFD-47B6-7128-47D6BD9E844C</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD457A3E-F593-18C2-86E8-5531C35CBCD6" referredColumn="4F9960DE-1F22-3065-722B-BAF73E8977B7"/>
+</associations>
+</Column>
+<Column name="Horarios_ID2" id="3E4C017B-327B-AECC-14C3-F5479EAA813B">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>C4A20A91-3978-DB48-D3F0-D142D000B1F9</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7518573-B089-25FC-2074-8CDBAEDA58E2" referredColumn="4F9960DE-1F22-3065-722B-BAF73E8977B7"/>
+</associations>
+</Column>
+<Column name="Bus_Patente" id="A0409CA4-C614-5A31-2F47-9DB2364476F4">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>30163A28-4E24-0F07-A866-ACE553982317</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="309DD80A-4E06-100D-9F59-3CF1B1A3C1E2" referredColumn="638A3CEA-C6B6-378B-7741-8F3ACA9D40BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8657C719-0B3E-4620-07CB-81A3F92C0C80" name="Registro_Recorrido_Bus_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>5CB6058E-8A78-471C-727D-F8450857DD5D</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5DD5B1D-BFC5-96EC-0F2D-978F7CE8FE5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68B3D689-93F7-5022-F110-E4E50F6C5055" name="Registro_Recorrido_Bus_Bus_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>F83FB802-2D36-B4BB-4A96-9B0213744F71</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0409CA4-C614-5A31-2F47-9DB2364476F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7851737-85C9-20A3-9F15-5A8937C48168" name="Registro_Recorrido_Bus_Carril_Terminal_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>614D49F0-FF67-BCF3-3D17-2372E7BEF1D3</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA7F4416-4BCE-EAB8-B5C1-82BD83345C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E2D924D-55E5-B1FB-6286-88828362EAFB" name="Registro_Recorrido_Bus_Carril_Terminal_FKv2">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>F139E9B7-2F20-E098-EDAD-E12D1B4F91F8</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF81C0A-F73A-5804-1E14-A7A9849F0FC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E773099-40A8-DAB9-44E7-EECC59B425AB" name="Registro_Recorrido_Bus_Datos_Conductor_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>883AE5E6-C2FF-DB8B-1E3A-83987D2A19F9</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9057CEB-0AE4-BCD2-0F17-3C017FC328A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45052F09-E9D8-BFFE-B968-77896F8FB7C8" name="Registro_Recorrido_Bus_Horarios_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>93D9EA26-67FC-A73A-986B-3F49A52E3C88</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDAA273C-9DB6-A2DA-D4CF-062D8DBC26D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73AAE190-D47C-44C4-36E4-2B70E747DD6D" name="Registro_Recorrido_Bus_Horarios_FKv2">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>26207846-9306-DF2D-59A8-A4890B9E9032</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E4C017B-327B-AECC-14C3-F5479EAA813B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CE2ECA7-E904-AF00-9DD2-18971952E6D4" name="Registro_Recorrido_Bus_Recorridos_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>58741A6A-230C-6AC0-4645-F324029B3412</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8E5FDBB-D388-3CB8-A5D7-88AAFB99ACCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

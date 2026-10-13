@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LicenciaConductor_DatosConductor" directorySegmentName="seg_0" id="F9882556-9AC2-869D-EFF3-F3D4D8AB2A91">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:17:32 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<sourcePk>E4C806FE-2775-3983-F438-F2F58A3DF0F9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07909810-5200-FF96-DCF2-79CC38789154</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7AD9AAB-31DD-1B07-73A6-ABF4ECAED5FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

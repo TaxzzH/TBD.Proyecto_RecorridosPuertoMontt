@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FichaMantenimiento_Bus" directorySegmentName="seg_0" id="221BFFD9-4B73-42DE-026F-5167B723BD93">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:18:56 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<sourcePk>268EFB12-43DF-5E27-CF89-BF826D74EEE6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F9369BB-6119-296E-76DC-5A2D6F8E0C78</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>329D21B3-E6EF-89AF-3D14-49F73DECCD22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

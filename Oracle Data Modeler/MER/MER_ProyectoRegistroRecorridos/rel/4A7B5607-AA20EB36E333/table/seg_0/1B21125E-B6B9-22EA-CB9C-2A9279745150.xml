@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B21125E-B6B9-22EA-CB9C-2A9279745150" name="Datos_Conductor">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>A7AD9AAB-31DD-1B07-73A6-ABF4ECAED5FC</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="DB3EE5EC-A7E8-B7E5-7C77-9B4FFAC0CE2D">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>2B7CD5B2-0FE6-6ECA-93F3-113BEA6435F0</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombres" id="B8A6D567-5F66-2393-DCAF-30E2AB60221F">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>11590E5E-2360-F03A-BD5A-7ABB066ACF8D</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Paterno" id="34213846-2A57-7134-07AB-E56B5B76F678">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>67A3713C-6549-A397-6F27-433F2786D52E</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Materno" id="A9E548AD-010E-8E9A-5ABC-10512A18103A">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>E3FBB78E-72AB-FC80-2ACC-BF3025761956</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="A1D45E40-5EB5-7BA3-4B47-DE497E43B175">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>A727E993-26B9-E2A9-7F66-AA86AD09EE67</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono_Emergencia" id="5036DB00-722D-0318-E753-2211AB8AD2C1">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>5DB3E2A1-32EE-F04C-4DBC-F9E621E53B1D</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="963ED755-43EE-D31B-8E8D-751AC8FE3769">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>4EDE2DB2-5EEB-32B5-429A-0F854D0E5DB1</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Licencias_Conductor_ID" id="EF16CEC0-AF8F-B51C-EE00-EEA59098C358">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>4844378E-5514-FCBD-E79B-4207804FE7D8</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25602DD3-B89E-FCE4-76C2-6035DB4A0D44" referredColumn="85777F91-811E-D006-E249-EC34F3C19304"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93BBF7A1-DF68-B3A6-B586-65E6CE498563" name="Datos_Conductor_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>DDD313CE-334A-5FC4-0CC6-E2BD7A9B7FD2</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB3EE5EC-A7E8-B7E5-7C77-9B4FFAC0CE2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F104E38A-2EFB-D99C-80E5-79BB080EAAEA" name="Datos_Conductor_Licencias_Conductor_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>F9882556-9AC2-869D-EFF3-F3D4D8AB2A91</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF16CEC0-AF8F-B51C-EE00-EEA59098C358"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

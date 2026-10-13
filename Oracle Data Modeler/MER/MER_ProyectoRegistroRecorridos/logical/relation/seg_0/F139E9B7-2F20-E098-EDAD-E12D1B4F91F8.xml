@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CarrilAsignadoSalida" directorySegmentName="seg_0" id="F139E9B7-2F20-E098-EDAD-E12D1B4F91F8">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:23:00 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<sourcePk>05A67B54-A81D-6127-A8F1-B4AC8BE728EB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65369F52-4C6D-2747-6787-7DB0C25D4409</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECCCE9A9-CC34-EC89-21D2-E473FA8B841E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

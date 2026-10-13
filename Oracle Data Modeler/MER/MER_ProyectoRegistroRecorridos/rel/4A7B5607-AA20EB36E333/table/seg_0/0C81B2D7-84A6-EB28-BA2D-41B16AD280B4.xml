@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C81B2D7-84A6-EB28-BA2D-41B16AD280B4" name="Terminal">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>AA815C81-EF74-56EE-B727-021098CF69F3</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9F318B91-3756-0369-BB1E-17E8DB4A84D2">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>CA4F3DE7-F666-61C8-35EE-D012FD9570A8</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Terminal" id="40AF1F40-1E53-ABD5-4D8A-B6A7F965EFA2">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>A5ED42A0-6184-6ED3-49F5-AA2E21EDCFD9</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cant_Carriles" id="8C635F33-712B-597A-B0FE-707F011EADD5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>97967B59-01A9-625C-38A8-798AFD6694D5</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direcciones_ID" id="C4549FD2-8410-36D1-891A-F83007A2793D">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>C3ABC8FA-0E5F-F977-0E39-62DEFD4C4054</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="843855F1-AAA3-2107-FA44-2B4A714F8B01" referredColumn="162504BB-2699-0ABA-46F8-41F10F093465"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2D6894F-17CA-4504-0D58-9989383357D1" name="Terminal_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:50 UTC</createdTime>
+<generatorID>7DB8BFDE-40A8-9505-5457-3C0F90EE2007</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F318B91-3756-0369-BB1E-17E8DB4A84D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="474E2CF8-3AA2-0BEC-1B00-72F9DD57647A" name="Terminal_Direcciones_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>150FC317-6975-B7C2-F9F2-B8B964EAB934</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4549FD2-8410-36D1-891A-F83007A2793D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Direccion_Empresa" directorySegmentName="seg_0" id="B4A8C604-C245-026A-4488-29F98BC1C8B3">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:19:37 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<sourcePk>06BF1976-50AA-0CE0-4780-BFFA347E0A43</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>86F50E5E-49BB-1FD3-FD1B-A1786EB586F3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6EFF3F3D-B87F-4487-E923-9ABB1D326AD8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECCCE9A9-CC34-EC89-21D2-E473FA8B841E" name="Registro Recorrido Bus">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:23:07 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="FBD37C7F-6EBA-40C9-513C-07C1732EBB98">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:23:15 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_Ejecucion_Entrada" id="D337179E-32D8-F2F4-508D-9ED41476382D">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:23:26 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_Ejecucion_Salida" id="A5C66220-9A3E-85F8-414C-75DF3F177578">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:25:16 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Recorrido" id="53B52C1A-5100-DEDB-A479-D63BCC1F4D7A">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:25:42 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT" id="EB39978A-1EBF-501E-EAAA-2D69BC62398D">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:18:18 UTC</createdTime>
+<generatorID>883AE5E6-C2FF-DB8B-1E3A-83987D2A19F9</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>2B7CD5B2-0FE6-6ECA-93F3-113BEA6435F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="A92A42CC-AF09-77FA-DF11-B1C2221B7822">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:22:16 UTC</createdTime>
+<generatorID>614D49F0-FF67-BCF3-3D17-2372E7BEF1D3</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>D0028DB0-ADB8-05BB-AB15-A0AE862A7415</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="CA19B36B-68A2-7DAB-1804-66B785E60904">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:23:00 UTC</createdTime>
+<generatorID>F139E9B7-2F20-E098-EDAD-E12D1B4F91F8</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>D0028DB0-ADB8-05BB-AB15-A0AE862A7415</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="8A597306-C270-BB92-8301-893728CEFC46">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:23:25 UTC</createdTime>
+<generatorID>58741A6A-230C-6AC0-4645-F324029B3412</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>3D5985EC-6B21-2346-53BD-CD262DB50495</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="C2150D67-3DFD-47B6-7128-47D6BD9E844C">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:23:52 UTC</createdTime>
+<generatorID>93D9EA26-67FC-A73A-986B-3F49A52E3C88</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>5E108B1C-358F-472B-3A6D-9B084540FA08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID5" id="C4A20A91-3978-DB48-D3F0-D142D000B1F9">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:24:15 UTC</createdTime>
+<generatorID>26207846-9306-DF2D-59A8-A4890B9E9032</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>5E108B1C-358F-472B-3A6D-9B084540FA08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patente" id="30163A28-4E24-0F07-A866-ACE553982317">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:25:10 UTC</createdTime>
+<generatorID>F83FB802-2D36-B4BB-4A96-9B0213744F71</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<referedAttribute>857EB86E-C5B7-42FD-00AE-A704056D6442</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CB6058E-8A78-471C-727D-F8450857DD5D" name="Registro Recorrido Bus PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 09:23:25 UTC</createdTime>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<engineerTo>
+<item key="4A7B5607-D79C-3AA4-CD31-AA20EB36E333" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBD37C7F-6EBA-40C9-513C-07C1732EBB98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

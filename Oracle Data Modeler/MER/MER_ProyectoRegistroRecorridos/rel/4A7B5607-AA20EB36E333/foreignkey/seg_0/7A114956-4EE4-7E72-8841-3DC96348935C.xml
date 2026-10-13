@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A114956-4EE4-7E72-8841-3DC96348935C" containerWithKeyObject="F00EE3E7-3F35-B0DF-ABBD-93F447C1D2FB" localFKIndex="73121542-4E87-D460-BD35-F8C41BCA690F" name="Carril_Terminal_Terminal_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-09-01 10:28:51 UTC</createdTime>
+<generatorID>7BB1FCCC-DBA1-481E-9123-2DB3F3C5D27D</generatorID>
+<ownerDesignName>MER_ProyectoRegistroRecorridos</ownerDesignName>
+<referredTableLongName>Terminal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C81B2D7-84A6-EB28-BA2D-41B16AD280B4</referredTableID>
+<keyObject>D2D6894F-17CA-4504-0D58-9989383357D1</keyObject>
+<referredKeyID>D2D6894F-17CA-4504-0D58-9989383357D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
