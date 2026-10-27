@@ -1,15 +1,10 @@
-CREATE OR REPLACE TRIGGER trg_valida_horario_recorrido
+CREATE OR REPLACE TRIGGER trg_valida_horario_solapado
 BEFORE INSERT OR UPDATE ON Registro_Recorrido_Bus
 FOR EACH ROW
 DECLARE
     v_count NUMBER;
 BEGIN
-    -- 1. Validar que la hora de entrada sea anterior a la de salida
-    IF :NEW.Hora_Ejecucion_Entrada >= :NEW.Hora_Ejecucion_Salida THEN
-        RAISE_APPLICATION_ERROR(-20002, 'La hora de entrada debe ser anterior a la hora de salida.');
-    END IF;
-
-    -- 2. Validar que no exista traslape con otro recorrido del mismo bus en la misma fecha
+    -- Validar que no exista traslape con otro recorrido del mismo bus en la misma fecha
     SELECT COUNT(*)
     INTO v_count
     FROM Registro_Recorrido_Bus
@@ -30,30 +25,6 @@ BEGIN
 END;
 /
 
--- Horario de Entrada anterior a la Salida
-INSERT INTO Registro_Recorrido_Bus (
-    ID, 
-    Hora_Ejecucion_Entrada, 
-    Hora_Ejecucion_Salida, 
-    Fecha_Recorrido, 
-    Datos_Conductor_RUT, 
-    Carril_Entrada_ID, 
-    Carril_Salida_ID, 
-    Recorridos_ID, 
-    Horario_Entrada_ID, 
-    Horario_Salida_ID, 
-    Bus_Patente) VALUES (
-        61, 
-        TO_DATE('14/09/26 08:00', 'DD/MM/YY HH24:MI'), 
-        TO_DATE('14/09/26 07:10', 'DD/MM/YY HH24:MI'), 
-        TO_DATE('14/09/26', 'DD/MM/YY'), 
-        '10101010-1', 
-        1, 
-        2, 
-        1, 
-        97, 
-        99, 
-        'HJKL10');
 
 -- Registro que solapa con otro
 INSERT INTO Registro_Recorrido_Bus (

@@ -18,7 +18,7 @@ CREATE OR REPLACE PACKAGE pkg_gestion_terminales IS
         p_horario_ent IN NUMBER,
         p_horario_sal IN NUMBER
     );
-END pkg_gestion_terminales;
+END pkg_gestion_terminales; 
 /
 
 CREATE OR REPLACE PACKAGE BODY pkg_gestion_terminales IS
